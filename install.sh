@@ -9,6 +9,7 @@ sudo pacman --noconfirm -S dmenu
 sudo pacman --noconfirm -S vim
 sudo pacman --noconfirm -S ranger
 sudo pacman --noconfirm -S feh imagemagick python-pip python-pywal
+sudo pacman --noconfirm -S go
 
 cd ~
 mkdir -p /tmp/yay_install
