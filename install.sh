@@ -14,9 +14,9 @@ cd ~
 mkdir -p /tmp/yay_install
 cd /tmp/yay_install
 
-sudo pacman -S base-devel
+sudo pacman --noconfirm -S base-devel
 
-sudo pacman -S expac yajl git
+sudo pacman --noconfirm -S expac yajl git
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
