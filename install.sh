@@ -32,7 +32,7 @@ mv ~/wallpaper.jpg ~/Pictures/Wal/
 wal -i ~/Pictures/Wal/wallpaper.jpg
 
 sudo pacman --noconfirm -S cairo libxcb python2 xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm jsoncpp
-yay -S polybar-git
+yay --noconfirm -S polybar-git
 
 
 cd ~
@@ -43,7 +43,7 @@ cp -r ~/direwolf-arch-rice/.Xresources ~/
 xrdb .Xresources
 
 
-yay -S otf-overpass
+yay --noconfirm -S otf-overpass
 
 
 sudo pacman --noconfirm -S w3m
