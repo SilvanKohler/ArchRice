@@ -24,7 +24,7 @@ cd yay
 makepkg -si
 
 cd ~
-rm -r /tmp/yay_install
+rm -rf /tmp/yay_install
 
 cd ~
 wget https://github.com/IbrahimButt/Direwolf-Arch-Rice/raw/master/images/wallpaper.jpg
