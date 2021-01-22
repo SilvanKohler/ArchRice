@@ -21,12 +21,11 @@ sudo pacman --noconfirm -S expac yajl git
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si
+makepkg --noconfirm -si
 
 cd ~
 rm -rf /tmp/yay_install
 
-cd ~
 wget https://github.com/IbrahimButt/Direwolf-Arch-Rice/raw/master/images/wallpaper.jpg
 mkdir -p ~/Pictures/Wal/
 mv ~/wallpaper.jpg ~/Pictures/Wal/
